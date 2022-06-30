@@ -1,6 +1,6 @@
 public class SquareArea1
 {
-	float side, area;
+	float side, area;  // declaring variable
     void insert(float s, float a) {
       side=s; 
       area=a;
@@ -9,10 +9,10 @@ public class SquareArea1
 	  
      System.out.print(area=4*side);
   }
-      static class SquareArea{
+      static class SquareArea{  // creating another class
     	  public static void main(String[] args) {
-    		  SquareArea1 r1=new SquareArea1();
-    		  r1.insert(10.5f,5.2f);
+    		  SquareArea1 r1=new SquareArea1();  // to create object
+    		  r1.insert(10.5f,5.2f);  // method calling
     		  r1.calculateArea();
     	  
    }
