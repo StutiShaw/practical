@@ -11,10 +11,9 @@ public class RectangleArea1 {
    
  static class TestRectangle1{
 	public static void main(String args[]) {
-  RectangleArea1 r1=new RectangleArea1();
-  RectangleArea1 r2=new RectangleArea1();
-
-  r1.insert(11,5);
+  RectangleArea1 r1=new RectangleArea1();// creating object
+  RectangleArea1 r2=new RectangleArea1();// creating object
+  r1.insert(11,5);// calling method
   r2.insert(3,15);
   r1.calculateArea1();
   r2.calculateArea1();
